@@ -8,4 +8,5 @@ function rm_theme_styles(){
 
 	// SCRIPTS
 	wp_enqueue_script('theme_js', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '', true);
+	wp_enqueue_script('facebook', 'https://connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v5.0');
 }

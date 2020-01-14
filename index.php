@@ -136,23 +136,28 @@
 					</header>
 
 					<div class="box_popular_posts">
+
+						<?php for( $c = 0; $c < 3; $c++ ){ ?>
 						
-						<article>
-							<img src="" alt="">
+						<article class="article_popular_posts">
+							<img src="<?php bloginfo('template_url') ?>/images/treino.jpg" alt="popular post">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</article>
+
+						<?php } ?>
 
 						<hr>
 
 					</div>
 
 					<div class="fa_page_box">
-						<h2>Like us on FaceBook</h2>
-						<div>arquivo que vamos pegar no facebook</div>
+						<h3>Like us on FaceBook</h3>
+						<div class="fb-page" data-href="https://www.facebook.com/IgrejaBatistaEmArthurLundgrenIi/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/IgrejaBatistaEmArthurLundgrenIi/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/IgrejaBatistaEmArthurLundgrenIi/">Igreja Batista Em Arthur Lundgren II</a></blockquote></div>
 						<hr>
 					</div>
 
-					<div class="box_keywords">
+					<h3>Labels</h3>
+					<div class="box_keywords transitions">
 						<p>Slide</p>
 						<p>Gallery</p>
 						<p>Games</p>
@@ -169,11 +174,15 @@
 
 	<section class="more">
 		<div class="flex">
-			
-			<article class="box_more">
-				<h1>flickr images</h1>
-			</article>
 
+			<?php for($d = 0; $d < 3; $d++){ ?>
+			
+				<article class="box_more flex-3">
+					<h1>flickr images</h1>
+					<img src="<?php bloginfo('template_url') ?>/images/treino.jpg" alt="imagem do post" title="imagem do post">
+				</article>
+			
+			<?php } ?>
 
 			<span>scroll top</span>
 		</div>

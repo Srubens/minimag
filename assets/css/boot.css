@@ -223,7 +223,7 @@ ul{ list-style: none }
 
 .flex{
 	display: flex;
-	flex-wrap: wrapw;
+	flex-wrap: wrap;
 }
 
 .flex .flex-1{
