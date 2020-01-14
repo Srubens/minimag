@@ -49,8 +49,8 @@
 				</ul>
 
 				<form action="" class="main_search" method="POST">
-					<input type="search" required>
-					<input type="submit" value="Buscar">
+					<input type="search" placeholder="Buscar Por:" required>
+					<input class="radius" type="submit" value="Buscar">
 				</form>
 			</div>
 
@@ -100,7 +100,7 @@
 
 
 				<div class="paginator">
-					<span>1</span>
+					<span class="active">1</span>
 					<span>2</span>
 					<span>3</span>
 					<span>4</span>
@@ -116,19 +116,23 @@
 
 				<header class="main_follow">
 					<div class="flex">
-						<h2>follow:</h2>
-						<span>twitter</span>
-						<span>facebook</span>
-						<span>youtuber</span>
-						<span>dribble</span>
-						<span>rss</span>
+						<div class="main_follow_title">
+							<h2>follow:</h2>
+						</div>
+						<div class="main_social">
+							<span title="twitter" > <i class="fa fa-twitter"></i> </span>
+							<span title="facebook" > <i class="fa fa-facebook"></i> </span>
+							<span title="youtube" > <i class="fa fa-youtube"></i> </span>
+							<span title="dribbble" > <i class="fa fa-dribbble"></i> </span>
+							<span title="rss" > <i class="fa fa-rss"></i> </span>
+						</div>
 					</div>
 				</header>
 
 				<div class="popular_post">
 
 					<header class="popular_post_header">
-						<h2>Popular Posts</h2>
+						<h3>Popular Posts</h3>
 					</header>
 
 					<div class="box_popular_posts">
