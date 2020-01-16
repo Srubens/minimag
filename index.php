@@ -83,7 +83,7 @@
 						<article class="box_post">
 							<div class="box_main_img">
 								<img src="<?php bloginfo('template_url') ?>/images/treino.jpg" alt="imagem do post" title="imagem do post">
-								<span class="box_commets">5</span>
+								<span class="box_commets"> <span>5</span> <i class="fa fa-comments"></i> </span>
 							</div>
 							<span>Data 13-01-2020</span>
 							<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h1>
@@ -184,14 +184,14 @@
 			
 			<?php } ?>
 
-			<span>scroll top</span>
+			<span class="scroll_top" data-js="scroll-top" title="top"> <i class="fa fa-sort-up scroll"></i> </span>
 		</div>
 	</section>
 
 	<footer class="main_footer">
-		<div class="flex">
-			<span>Minimag &copy; All Rights Reseverd.</span>
-			<span>Create by Rubens Filipe</span>
+		<div class="box_main_footer">
+			<div>Minimag &copy; All Rights Reseverd.</div>
+			<div>Create by Rubens Filipe</div>
 		</div>
 	</footer>
 
