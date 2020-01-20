@@ -14,6 +14,7 @@
 		<div class="flex">
 			<nav class="main_menu_header">
 				<ul class="main_ul_menu_header">
+					<span class="menu jmenu"><a href="#">Menu</a></span>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Features</a></li>
@@ -85,7 +86,7 @@
 								<img src="<?php bloginfo('template_url') ?>/images/treino.jpg" alt="imagem do post" title="imagem do post">
 								<span class="box_commets"> <span>5</span> <i class="fa fa-comments"></i> </span>
 							</div>
-							<span>Data 13-01-2020</span>
+							<span class="data">Data 13-01-2020</span>
 							<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia corporis temporibus ea dolores quos recusandae doloribus aliquid praesentium dolor at repellat cum est, delectus eveniet suscipit blanditiis odio ipsa architecto.</p>
 						</article>

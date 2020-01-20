@@ -61,6 +61,11 @@ body{
 	color: var(--color_sidebar) ;
 }
 
+.menu a{
+	color: var(--color_sidebar) ;
+	display: none;
+}
+
 .main_search{
 	margin-right: 15px;
 	align-items: center;
@@ -293,4 +298,193 @@ body{
 	width: 90%;
 	margin: 0 auto;
 	align-items: center;
+}
+
+@media(max-width: 42em){
+
+	.main_menu_category_list{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.main_search{
+		margin-left: 15px;
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.main_search input[type="search"]{
+		width:80%;
+	}
+
+	.main_search input[type="submit"]{
+		width: 16%;
+	}
+
+	.main_header_content > .flex{
+		text-align: center;
+		margin: 0 auto;
+		flex-direction: column;
+		margin-top: 10px;
+	}
+
+	.main_header_content > .flex h3{
+		margin-bottom: 10px;
+	}
+
+	.main_content{
+		margin: 0 auto;
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 100%;	
+	}
+
+	.box_post img{
+		max-width: 270px;
+	}
+
+	.box_post h1{
+		font-size: 1.1em;
+		margin-bottom:10px;
+	}
+
+	.main_sidebar{
+		width: 100%;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.main_follow{
+		width: 100%;
+		margin: 0 auto; 
+	}
+
+	.popular_post_header{
+		text-align: center;
+	}
+
+	.article_popular_posts{
+		display: flex;
+		justify-content: center;
+	}
+
+	.fa_page_box{
+		text-align: center;
+	}
+
+
+}
+
+@media(max-width: 32em){
+
+	.main_logo_a{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.main_header_top{
+		height: auto;
+		background: var( --color_header_top );
+		width: 100%;
+		padding:10px;
+	}
+
+	.main_header_top > .flex{
+		flex-wrap: nowrap;
+		display: flex;
+		justify-content: center;
+	}
+
+	.main_ul_menu_header{
+		flex-direction: column;
+	}
+
+	.menu a{
+		display: block;
+		color: var(--color_sidebar) ;
+		text-decoration: none;
+		padding:8px;
+	}
+
+	.main_ul_menu_header li{
+		display: none;
+		height: auto;
+		text-align: center;
+		background: var( --gray );
+		padding:8px;
+		width: 100%;
+		margin:4px auto; 
+	}
+
+	.main_ul_menu_header li a{
+		text-decoration: none;
+	}
+
+	.main_ul_menu_header li:hover{
+		display: block;
+		height: auto;
+		text-align: center;
+		background: var( --gray_h );
+		padding:8px;
+		width: 100%;
+		margin:4px auto; 
+	}
+
+	.main_ul_menu_header li:hover a{
+		text-decoration: underline;
+	}
+
+	.main_menu_category_list{
+		height: 278px;
+	}
+
+
+	.category_ul_list{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.main_search{
+		text-align: center;
+	}
+
+	.main_search input[type="search"]{
+		width: 50%;
+	}
+
+	.box_post img{
+		max-width: 400px;
+		margin-bottom: 15px;
+	}
+
+	.data{
+		display: inline-block;
+		margin-bottom: 15px;
+	}
+
+	.box_commets{
+		right: 0px;
+	}
+
+	.main_social{
+		margin-right: 15px
+	}
+
+	.main_follow_title{
+		margin-left: 15px;
+	}
+
+	.box_more h1{
+		margin-bottom: 15px;
+	}
+
+	.flex > .flex-3{
+		flex-basis: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
 }
